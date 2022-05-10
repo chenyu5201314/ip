@@ -15,3 +15,4 @@
 
 至此教程结束
 
+> 腾讯云免费服务器领取 https://cloud.tencent.com/act/free?from=16830
