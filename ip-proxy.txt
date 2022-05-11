@@ -29,9 +29,9 @@ Error: Cannot retrieve repository metadata (repomd.xml) for repository: base. Pl
 3.   echo "" >  epel.repo
 先清空这两个文件的内容
 4.  vim  CentOS-Base.repo 
-进入编辑文件按大写i进行编辑，文件内容地址参考https://www.jianshu.com/p/4d5e5360c55b 复制进去后按 : wq 进行保存
+进入编辑文件按大写i进行编辑，文件内容地址参考https://github.com/chenyu5201314/ip/blob/main/CentOS-Base.repo 复制进去后按 : wq 进行保存
 5. vim epel.repo 
-同理
+同理 内容可取 https://github.com/chenyu5201314/ip/blob/main/epel.repo
 6.  wget -O /etc/yum.repos.d/CentOS-Base.repo http://file.kangle.odata.cc/repo/Centos-6.repo
 7.  wget -O /etc/yum.repos.d/epel.repo http://file.kangle.odata.cc/repo/epel-6.repo
 8.  yum clean all
